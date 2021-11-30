@@ -8,4 +8,4 @@ def test_board_init_nr_of_files_and_ranks():
 
 def test_board_init_from_fen():
     board = Board(board_fen="rnbqk/ppppp/5/PPPPP/RNBQK")
-    assert str(board) == "r n b q k\np p p p p\n. . . . .\nP P P P P\nR N B Q K\n"
+    assert str(board) == "♖ ♘ ♗ ♕ ♔\n♙ ♙ ♙ ♙ ♙\n. . . . .\n♟ ♟ ♟ ♟ ♟\n♜ ♞ ♝ ♛ ♚\n"
