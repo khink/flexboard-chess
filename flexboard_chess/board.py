@@ -16,15 +16,15 @@ PIECE_TYPES = [PAWN, KNIGHT, BISHOP, ROOK, QUEEN, KING] = range(1, 7)
 PIECE_SYMBOLS = [None, "p", "n", "b", "r", "q", "k"]
 PIECE_NAMES = [None, "pawn", "knight", "bishop", "rook", "queen", "king"]
 
-UNICODE_PIECE_SYMBOLS = {  # black and white are opposite to python-chess
-    # black pieces
+UNICODE_PIECE_SYMBOLS = {
+    # displayed as black on terminal
     "r": "♖",
     "n": "♘",
     "b": "♗",
     "q": "♕",
     "k": "♔",
     "p": "♙",
-    # white pieces
+    # displayed as white on terminal
     "K": "♚",
     "Q": "♛",
     "B": "♝",
